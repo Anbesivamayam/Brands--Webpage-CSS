@@ -1,0 +1,1594 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Oswald:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+}
+
+/* Navigation css */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navlogo > img {
+  width: 15%;
+}
+.menuIcon {
+  font-size: 25px;
+}
+.menuBar > .menuIcon {
+  padding: 0px 50px;
+}
+.menuIcon:hover {
+  color: #f09319;
+  cursor: pointer;
+}
+/* -----Menu Hover onclick function using Javascript */
+.sidecontent {
+  height: 100vh;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  background-color: #000;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 10px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+.closeBtn {
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  margin: 0px 20px;
+}
+.sidecontent > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin: 20px 0px;
+  text-decoration: none;
+}
+
+/* Main container firstpage floating white div with girl poster */
+.mainOrange_con {
+  background: #f09319;
+  width: 100%;
+  display: block;
+  padding-top: 25%;
+}
+.mainWhite_con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+.floating_main {
+  background-color: white;
+  height: auto;
+  max-width: 85%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  transform: translate(0px, -240px);
+}
+.mainPoster {
+  display: flex;
+  justify-content: flex-end;
+}
+.mainPoster > img {
+  max-width: 90%;
+  height: auto;
+  transform: translate(15px, -50px);
+}
+.containerPoster {
+  padding: 50px;
+  line-height: 1;
+  text-align: center;
+}
+
+.create {
+  padding-top: 60px;
+  font-size: 6rem;
+  font-weight: lighter;
+  line-height: 1;
+  text-align: center;
+}
+.brand {
+  font-size: 5rem;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.posterTags {
+  letter-spacing: 3px;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #969090;
+  margin-bottom: 37px;
+  letter-spacing: 3px;
+  font-family: 'Open Sans', sans-serif !important;
+}
+.posterBtn {
+  padding: 4% 9%;
+  width: fit-content;
+  color: #ffffff;
+  background: #000;
+  font-weight: lighter;
+  font-size: 1rem;
+  border-radius: 3px;
+  font-size: 1rem;
+  border: none;
+  letter-spacing: 3px;
+}
+.posterBtn:hover {
+  background: #f09319;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.mainBlack_con2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #000;
+  width: 100%;
+  color: #fff;
+}
+.basePara_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 20px 50px 80px 0px;
+  font-size: 6rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  margin-bottom: 20px;
+  line-height: 6rem;
+}
+.blackCirclePara {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background: #f09319;
+}
+.innovative {
+  padding-top: 30px;
+}
+
+.basePara_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 12px;
+}
+
+.basePara_right > p {
+  font-size: 20px;
+  width: 400px;
+  padding-bottom: 5%;
+  line-height: 2.5rem;
+  letter-spacing: 1px;
+}
+.basePara_right > button {
+  padding: 2.8% 7%;
+  width: fit-content;
+  color: #ffffff;
+  background: #f09319;
+  font-weight: 300;
+  font-size: 0.9rem;
+  border-radius: 2px;
+  border: none;
+  letter-spacing: 0.2em;
+}
+.basePara_right > button:hover {
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+/* Article 1st  Sections Brands*/
+.brandAgency {
+  background-color: #e5e5e5;
+  width: 100%;
+  height: auto;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.circleMain {
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+  background: #f09319;
+  transform: translate(-80px, 0px);
+}
+
+.brandPic_one {
+  width: 45%;
+}
+
+.brandPic_two {
+  width: 30%;
+  z-index: 99;
+  box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 40%);
+  transform: translate(-230px, 200px);
+}
+.brandCon_left {
+  transform: translate(35px, -250px);
+  width: 90%;
+}
+.brandCon_right {
+  padding: 40px 0px 30px 30px;
+  width: 36%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 200;
+  float: right;
+  position: absolute;
+  right: 100px;
+  top: 280px;
+}
+.brandHeader {
+  font-size: 4rem;
+  font-weight: 300;
+  line-height: 4.5rem;
+}
+.paddingDesign {
+  padding-bottom: 20px;
+}
+.brandTick {
+  color: #f09319;
+}
+
+.brandList {
+  padding-top: 10px;
+  font-size: 19px;
+  line-height: 2.5rem;
+  letter-spacing: 1px;
+  list-style: none;
+  font-weight: 300;
+}
+
+.brandBtn {
+  padding: 4% 9%;
+  width: fit-content;
+  color: #ffffff;
+  background: #000;
+  font-weight: lighter;
+  font-size: 0.9rem;
+  border-radius: 2px;
+  border: none;
+  letter-spacing: 0.2em;
+  font-weight: 300;
+}
+.brandBtn:hover {
+  background: #002559;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+/* article 2 container Why us and his image */
+.articleTwo_Con {
+  display: grid;
+  grid-template-columns: 45% 55%;
+}
+.usWrapper {
+  background-color: #000;
+  width: 100%;
+  height: auto;
+  padding: 12px;
+  padding-left: 45px;
+  padding-bottom: 20px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.usWrapperImg {
+  background: url(./images/thirdpage/usimage.jpg);
+  background-size: cover;
+  width: 100%;
+}
+.aligner {
+  margin: 50px 50px;
+}
+.usHeader {
+  color: #f09319;
+  font-weight: lighter;
+  font-size: 5.5rem;
+  padding-bottom: 20px;
+}
+.line-1 {
+  background-color: #f09319;
+  height: 6px;
+  width: 20%;
+}
+
+.aboutUs {
+  padding-top: 10px;
+  font-size: 20px;
+  line-height: 2.5rem;
+  letter-spacing: 0.1em;
+  list-style: none;
+}
+.linkNav {
+  padding-bottom: 25px;
+}
+
+.usBtn {
+  padding: 3.3% 7.4%;
+  width: fit-content;
+  color: #ffffff;
+  background: #f09319;
+  font-weight: lighter;
+  font-size: 0.9rem;
+  border-radius: 2px;
+  border: none;
+  letter-spacing: 0.2em;
+}
+.usBtn:hover {
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+/* project title  */
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e5e5;
+  padding: 30px;
+}
+.projects > h1 {
+  font-weight: 300;
+  font-size: 5rem;
+  padding-bottom: 20px;
+}
+.projects > p {
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 1.4rem;
+}
+.benjamin {
+  margin-bottom: 20px;
+}
+.blackLine {
+  height: 0.5px;
+  width: 70%;
+  background-color: #000;
+}
+
+/* project images collections*/
+
+.wrapper {
+  background-color: #e5e5e5;
+  padding: 10px 100px;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.zoom-effect-container {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.image-card img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  width: 100%;
+}
+
+.zoom-effect-container:hover .image-card img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.imgBtn_con {
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.imgBtn {
+  padding: 1% 3%;
+  color: #000;
+  background: #e5e5e5;
+  font-weight: lighter;
+  font-size: 1.2rem;
+  letter-spacing: 0.1em;
+  border-color: #000 solid 0.2px;
+  border-width: thin;
+  margin-bottom: 20px;
+}
+.imgBtn:hover {
+  background: #000;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+/* Strategy Page */
+.strategy {
+  background-image: url(./images/strategy.jpg);
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.contentWrapper {
+  padding: 80px 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  width: 42%;
+  text-align: end;
+  grid-gap: 10px;
+}
+.dimension {
+  padding: 5px;
+  padding-bottom: 30px;
+  width: 90%;
+  height: auto;
+  background-color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: lighter;
+}
+.strategyImG {
+  padding: 15px 15px 5px 5px;
+  width: 85px;
+}
+.contentWrapper h4 {
+  font-family: "Open Sans", sans-serif !important;
+  font-weight: 400;
+  font-size: 1.2rem;
+  padding-bottom: 15px;
+}
+
+.contentWrapper p {
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  padding: 15px;
+}
+
+/* Bottom black box */
+.sectionBlack_con {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #000;
+  width: 100%;
+  color: #fff;
+  padding-top: 100px;
+}
+.Para_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px 0px 80px 50px;
+  font-size: 6rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  line-height: 6rem;
+}
+.paraCircle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #f09319;
+}
+.unique {
+  padding-top: 40px;
+}
+.Para_left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 12px;
+}
+.Para_left > p {
+  font-size: 20px;
+  width: 400px;
+  padding-bottom: 5%;
+  line-height: 2.5rem;
+  letter-spacing: 1px;
+  text-align: end;
+}
+
+.Para_left > button {
+  padding: 3% 7%;
+  width: fit-content;
+  color: #ffffff;
+  background: #f09319;
+  font-weight: lighter;
+  font-size: 1rem;
+  border-radius: 2px;
+  border: none;
+  letter-spacing: 0.2em;
+}
+.Para_left > button:hover {
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+/* Contact Us last section  */
+.lastSection {
+  position: relative;
+}
+.talkPic {
+  position: absolute;
+  width: 63%;
+  top: 100px;
+  left: 100px;
+}
+.dummyGrey1 {
+  background: #e5e5e5;
+  width: 100%;
+  padding-top: 25%;
+}
+.dummyOrange {
+  background: #f09319;
+  width: 100%;
+  padding-top: 25%;
+}
+.dummyGrey2 {
+  background: #e5e5e5;
+  width: 100%;
+  padding-top: 25%;
+  display: flex;
+  justify-content: end;
+}
+
+.talkContainer {
+  bottom: 2px;
+  right: 140px;
+  width: 40%;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  position: absolute;
+  z-index: 20px;
+  overflow: hidden;
+  padding: 40px 0px 40px 50px;
+}
+.headerContact {
+  font-size: 4rem;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+form {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  width: 85%;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.inputField {
+  text-decoration: none;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-width: 0 0 2px;
+  border-color: black;
+}
+.inputField {
+  text-decoration: none;
+  padding: 12px;
+  margin-bottom: 25px;
+  border-width: 0 0 2px;
+  border-color: black;
+}
+input,
+input::-webkit-input-placeholder {
+  font-size: 1.2rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+.inputContainer > button {
+  padding: 3% 7%;
+  color: #ffffff;
+  background: #000;
+  font-weight: 400;
+  font-size: 1.2rem;
+  border-radius: 2px;
+  border: none;
+  letter-spacing: 0.2em;
+}
+.inputContainer > button:hover {
+  background: #333333;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.footerContact > p {
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 1.2rem;
+  padding-top: 20px;
+}
+.footerContact > p > a {
+  color: #000;
+}
+
+/* Footer content */
+footer {
+  text-align: center;
+  background-color: #333333;
+}
+.socials {
+  padding: 40px;
+}
+.socials img {
+  width: 2.5%;
+}
+.socials > a {
+  text-decoration: none;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  color: #fff;
+}
+.footerContent {
+  padding: 40px;
+  color: #e5e5e5;
+  font-size: 0.9rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+/* End of CSS Main code */
+
+/* ------------------------MEDIA QUERIES----------------------------------------------------- */
+
+/* #1440 */
+@media screen and (min-width: 1400px) {
+  .create {
+    font-size: 8rem;
+  }
+  .brand {
+    margin-bottom: 80px;
+  }
+  .posterTags {
+    letter-spacing: 3px;
+    font-size: 1.7rem;
+    margin-bottom: 60px;
+  }
+  .posterBtn {
+    font-size: 1.8rem;
+  }
+  .basePara_right > p {
+    font-size: 25px;
+    width: 440px;
+    padding-bottom: 5%;
+    line-height: 2.7rem;
+  }
+  .basePara_right > button {
+    font-size: 1.3rem;
+  }
+  .basePara_left {
+    line-height: 7rem;
+    font-size: 7rem;
+  }
+  .usHeader {
+    font-size: 6rem;
+  }
+  .line-1 {
+    height: 8px;
+    width: 21%;
+  }
+  .aboutUs {
+    padding-top: 45px;
+    font-size: 25px;
+    line-height: 3rem;
+    letter-spacing: 0.1em;
+  }
+  .usBtn {
+    font-size: 1.4rem;
+  }
+  .projects > h1 {
+    font-size: 7rem;
+    padding-bottom: 30px;
+  }
+  .projects > p {
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 2rem;
+  }
+  .blackLine {
+    height: 1px;
+    width: 72%;
+  }
+  .zoom-effect-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  .imgBtn {
+    font-size: 1.5rem;
+    letter-spacing: 0.1em;
+    margin-bottom: 30px;
+  }
+  .strategyImG {
+    padding: 30px 15px 5px 5px;
+    width: 100px;
+  }
+  .contentWrapper {
+    padding: 80px 100px;
+    width: 50%;
+    text-align: end;
+    grid-gap: 10px;
+  }
+  .contentWrapper h4 {
+    font-size: 1.5rem;
+    padding-bottom: 15px;
+  }
+  .contentWrapper p {
+    font-size: 1.2rem;
+  }
+  .dimension {
+    width: 93%;
+    height: 42vh;
+    margin-bottom: 20px;
+  }
+  .Para_left > p {
+    font-size: 25px;
+    width: 440px;
+    padding-bottom: 5%;
+    line-height: 2.7rem;
+  }
+  .Para_left > button {
+    font-size: 1.2rem;
+  }
+  .Para_right {
+    line-height: 7rem;
+    font-size: 7rem;
+  }
+  .headerContact {
+    font-size: 5rem;
+  }
+  input,
+  input::-webkit-input-placeholder {
+    font-size: 2rem;
+  }
+  .inputContainer > button {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    font-weight: bolder;
+  }
+  .footerContact > p {
+    font-size: 1.7rem;
+    padding-top: 45px;
+  }
+  .socials img {
+    width: 3.5%;
+  }
+  .footerContent {
+    font-size: 1.1rem;
+  }
+}
+
+/* #1200-1366 */
+@media screen and (max-width: 1200px) {
+  .floating_main {
+    transform: translate(0px, -190px);
+  }
+
+  .create {
+    padding-top: 60px;
+    font-size: 5rem;
+  }
+  .brand {
+    font-size: 5rem;
+  }
+  .brandCon_right {
+    right: 80px;
+  }
+  .zoom-effect-container {
+    width: 100%;
+  }
+}
+
+/* #1040-1200 */
+@media screen and (max-width: 1070px) {
+  .floating_main {
+    transform: translate(0px, -160px);
+  }
+  .create {
+    padding-top: 10px;
+    font-size: 5rem;
+  }
+  .brand {
+    font-size: 5rem;
+  }
+  .posterBtn {
+    font-size: 1rem;
+    padding: 4% 7%;
+  }
+  .posterTags {
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+  }
+  .brandCon_left {
+    transform: translate(20px, -250px);
+    width: 90%;
+  }
+  .basePara_left {
+    font-size: 4rem;
+    margin-bottom: -30px;
+  }
+  .blackCirclePara {
+    width: 100px;
+    height: 100px;
+  }
+  .basePara_right > p {
+    font-size: 18px;
+    padding-bottom: 5%;
+    line-height: 2.6rem;
+  }
+  .basePara_right > button {
+    padding: 2.8% 5%;
+    font-size: 0.9rem;
+  }
+  .brandPic_two {
+    width: 32%;
+    transform: translate(-189px, 187px);
+  }
+  .brandCon_right {
+    right: 65px;
+  }
+  .brandHeader {
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+  .brandList {
+    font-size: 18px;
+    line-height: 2rem;
+  }
+  .linkNav {
+    padding-bottom: 10px;
+  }
+  .brandBtn {
+    padding: 3.5% 6%;
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
+  }
+  .usWrapper {
+    padding: 10px;
+    padding-left: 20px;
+  }
+  .usHeader {
+    font-size: 5rem;
+    padding-bottom: 5px;
+  }
+  .line-1 {
+    height: 5px;
+    width: 24%;
+  }
+  .aboutUs {
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 2.3rem;
+  }
+  .aligner {
+    margin: 40px 40px;
+  }
+  .usBtn {
+    font-size: 1rem;
+  }
+  .projects {
+    padding: 10px;
+  }
+  .wrapper {
+    display: grid;
+    grid-gap: 15px;
+  }
+  .contentWrapper {
+    padding: 80px 80px;
+    width: 49%;
+    text-align: end;
+    grid-gap: 20px;
+  }
+  .zoom-effect-container {
+    width: 100%;
+  }
+
+  .contentWrapper {
+    width: 52%;
+  }
+  .strategyImG {
+    padding: 12px 6px;
+    width: 85px;
+  }
+  .contentWrapper p {
+    font-size: 0.9rem;
+  }
+  .sectionBlack_con {
+    padding-top: 50px;
+  }
+  .paraCircle {
+    width: 100px;
+    height: 100px;
+  }
+  .Para_right {
+    padding: 13px 0px 54px 25px;
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+  .Para_left > p {
+    font-size: 18px;
+    padding-bottom: 5%;
+    line-height: 2.6rem;
+  }
+  .Para_left > button {
+    padding: 2.8% 4%;
+    font-size: 1rem;
+  }
+  .footerContact > p {
+    font-size: 1rem;
+    padding-top: 2px;
+  }
+  .inputField {
+    padding: 2px;
+    margin-bottom: 29px;
+  }
+  .socials {
+    padding: 25px;
+  }
+  .footerContent {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  .socials img {
+    width: 4%;
+  }
+}
+
+/* #800-1000 */
+@media screen and (max-width: 1000px) {
+  .floating_main {
+    transform: translate(0px, -100px);
+  }
+  .create {
+    padding-top: 40px;
+    font-size: 3.5rem;
+    line-height: 0.5;
+  }
+  .brand {
+    padding-top: 30px;
+    font-size: 3.5rem;
+  }
+  .posterTags {
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+  }
+  .posterBtn {
+    padding: 4% 6%;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+  }
+  .brandCon_right {
+    right: 60px;
+  }
+  .talkContainer {
+    bottom: 2px;
+    right: 80px;
+    width: 40%;
+    padding: 10px 0px 25px 30px;
+  }
+  input,
+  input::-webkit-input-placeholder {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+  .headerContact {
+    font-size: 3rem;
+  }
+  .inputContainer > button {
+    padding: 4% 7%;
+    font-size: 0.7rem;
+    letter-spacing: 0.2rem;
+    font-weight: 300;
+  }
+
+  .usWrapper {
+    padding: 10px;
+    padding-left: 20px;
+  }
+  .aligner {
+    margin: 40px 40px;
+  }
+  .usHeader {
+    font-size: 4rem;
+    padding-bottom: 5px;
+  }
+  .aboutUs {
+    padding-top: 20px;
+    font-size: 17px;
+    line-height: 2rem;
+  }
+  .contentWrapper {
+    width: 57%;
+  }
+  .wrapper {
+    padding: 8px 50px;
+    display: grid;
+    grid-gap: 8px;
+  }
+  .strategyImG {
+    padding: 4px 6px;
+    width: 85px;
+  }
+  .footerContact > p {
+    font-size: 1rem;
+    padding-top: 2px;
+  }
+  .inputField {
+    padding: 2px;
+    margin-bottom: 28px;
+  }
+}
+
+/* tablets */
+@media screen and (max-width: 770px) {
+  .create {
+    padding-top: 36px;
+    font-size: 3rem;
+    line-height: 1rem;
+  }
+  .brand {
+    padding-bottom: 20px;
+    font-size: 3rem;
+  }
+  .posterTags {
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+  }
+  .posterBtn {
+    padding: 4% 6%;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+  }
+  .basePara_left {
+    padding: 20px 20px 50px 0px;
+    font-size: 4rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1px;
+    line-height: 4.9rem;
+  }
+  .basePara_right {
+    padding: 10px;
+  }
+  .basePara_right > p {
+    font-size: 15px;
+    width: 300px;
+    padding-bottom: 5%;
+    line-height: 2.5rem;
+    letter-spacing: 0.7px;
+  }
+  .basePara_right > button {
+    padding: 2.8% 5%;
+    font-size: 0.8rem;
+  }
+  .brandCon_left {
+    transform: translate(40px, -273px);
+    width: 93%;
+  }
+  .brandAgency {
+    padding-bottom: 180px;
+  }
+  .circleMain {
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    transform: none;
+  }
+  .brandPic_one {
+    width: 50%;
+  }
+  .brandPic_two {
+    width: 35%;
+    width: 39%;
+    transform: translate(-30px, 115px);
+  }
+  .brandCon_right {
+    padding: 40px 0px 30px 30px;
+    width: 45%;
+    z-index: 200;
+    position: absolute;
+    top: 550px;
+    right: 325px;
+  }
+
+  .brandHeader {
+    font-size: 2.8rem;
+    line-height: 2.8rem;
+  }
+  .usWrapper {
+    padding: 10px;
+    padding-left: 10px;
+  }
+  .usBtn {
+    font-size: 0.78rem;
+  }
+  .usHeader {
+    font-size: 3rem;
+    padding-bottom: 5px;
+  }
+  .aboutUs {
+    padding-top: 20px;
+    font-size: 14px;
+    line-height: 1.9rem;
+  }
+  .projects > h1 {
+    font-weight: 300;
+    font-size: 4rem;
+    padding-bottom: 20px;
+  }
+  .contentWrapper {
+    padding: 70px 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    width: 63%;
+    text-align: end;
+    grid-gap: 10px;
+  }
+  .wrapper {
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .Para_left{
+    padding: 1px;
+    padding-right: 20px;
+  }
+  .Para_left > p {
+    font-size: 15px;
+    width: 300px;
+    padding-bottom: 5%;
+    line-height: 2.5rem;
+    letter-spacing: 0.7px;
+  }
+  .Para_left > button {
+    padding: 2.8% 4%;
+    font-size: 0.8rem;
+  }
+  .paraCircle {
+    width: 80px;
+    height: 85px;
+  }
+  .Para_right {
+    padding: 10px 0px 70px 7px;
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+  .headerContact {
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding-bottom: 2px;
+  }
+  .talkPic {
+    width: 65%;
+    top: 40px;
+    left: 70px;
+  }
+  .talkContainer {
+    bottom: 2px;
+    right: 80px;
+    width: 40%;
+    padding: 10px 0px 25px 30px;
+  }
+  .footerContact > p {
+    font-size: 1rem;
+    padding-top: 0px;
+  }
+  input,
+  input::-webkit-input-placeholder {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 690px) {
+  .floating_main {
+    transform: translate(0px, -70px);
+    width: 90%;
+  }
+  .create {
+    font-size: 2.4rem;
+    line-height: 1rem;
+    letter-spacing: 1px;
+  }
+  .brands {
+    font-size: 2.3rem;
+  }
+  .brandCon_left {
+    transform: translate(40px, -262px);
+    width: 93%;
+  }
+  .brandCon_right {
+    padding: 40px 0px 30px 30px;
+    width: 45%;
+    top: 500px;
+    left: 78px;
+  }
+  .talkContainer {
+    bottom: 2px;
+    right: 80px;
+    width: 40%;
+    padding: 10px 0px 10px 20px;
+  }
+}
+
+/* mobile phones */
+@media screen and (max-width: 500px) {
+  .navlogo > img {
+    width: 25%;
+}
+  .mainOrange_con {
+    padding-top: 40%;
+  }
+  .floating_main {
+    max-width: 85%;
+    display: grid;
+    grid-template-columns: 1fr;
+    transform: translate(0px, -80px);
+  }
+  .containerPoster {
+    padding: 20px;
+  }
+  .create {
+    padding-top: 1px;
+    font-size: 4rem;
+    line-height: 1rem;
+  }
+  .posterTags {
+    letter-spacing: 2.5px;
+    font-size: 1.5rem;
+  }
+  .posterBtn {
+    padding: 6% 10%;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+  }
+  .mainPoster > img {
+    width: 90%;
+    height: 425px;
+    transform: translate(-17px, -50px);
+  }
+  .mainBlack_con2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .basePara_left {
+    padding-left: 70px;
+    align-items: flex-start;
+  }
+  .basePara_right > p {
+    font-size: 17px;
+    width: 260px;
+    padding-bottom: 5%;
+    line-height: 2.2rem;
+    letter-spacing: 0.6px;
+  }
+  .basePara_right > button {
+    padding: 5% 7%;
+    font-size: 0.9rem;
+  }
+  .basePara_right {
+    padding-left: 70px;
+    padding-bottom: 70px;
+  }
+  .brandAgency {
+    padding-top: 50px;
+    padding-bottom: 120px;
+  }
+  .brandCon_left {
+    transform: translate(4px, -180px);
+    width: 75%;
+  }
+  .brandCon_right {
+    padding: 14px 0px 20px 16px;
+    width: 55%;
+    z-index: 200;
+    position: absolute;
+    top: 610px;
+    left: 75px;
+}
+  .circleMain {
+    width: 300px;
+    height: 300px;
+  }
+  .brandPic_one {
+    width: 85%;
+  }
+  .brandPic_two {
+    width: 65%;
+    transform: translate(120px, -66px);
+  }
+  .brandHeader {
+    font-size: 2.1rem;
+    line-height: 2.4rem;
+  }
+  .brandList {
+    padding-top: 5px;
+    font-size: 14px;
+    line-height: 1.5rem;
+}
+  .linkNav {
+    padding-bottom: 10px;
+  }
+  .articleTwo_Con {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .usWrapper {
+    padding: 0px;
+    padding-left: 0px;
+  }
+  .usWrapperImg {
+    width: 100%;
+    height: 300px;
+  }
+  .usHeader {
+    font-size: 4rem;
+    padding-bottom: 10px;
+}
+.usBtn {
+  padding: 4% 8%;
+  width: fit-content;
+  color: #ffffff;
+  letter-spacing: 0.1em;
+}
+.aboutUs {
+  padding-top: 28px;
+  font-size: 15px;
+  line-height: 2rem;
+}
+  .wrapper {
+    grid-gap: 10px;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px 20px;
+  }
+  .contentWrapper {
+    padding: 30px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    width: 80%;
+    text-align: center;
+  }
+  .contentWrapper p {
+    font-size: 1.1rem;
+}
+  .projects > p {
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 1rem;
+  }
+  .blackLine {
+    height: 0.5px;
+    width: 80%;
+    background-color: #000;
+  }
+  .sectionBlack_con {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
+  .Para_left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 70px;
+    padding-bottom: 30px;
+    width: 250px;
+  }
+  .Para_left p {
+    text-align: left;
+    width: 260px;
+    font-size: 17px;
+    line-height: 2.2rem;
+    letter-spacing: 0.6px
+  }
+  .Para_left > button {
+    padding: 5% 7%;
+    font-size: 0.9rem;
+  }
+  .Para_right {
+    padding-left: 70px;
+    line-height: 5rem;
+  }
+  .dummyGrey1 {
+    background: #e5e5e5;
+    width: 100%;
+    padding-top: 30%;
+  }
+  .dummyOrange {
+    background: #f09319;
+    width: 100%;
+    padding-top: 30%;
+}
+.dummyGrey2 {
+  background: #e5e5e5;
+  width: 100%;
+  padding-top: 30%;
+}
+  .talkPic {
+    width: 60%;
+    top: 15px;
+    left: 70px;
+
+  }
+  .talkContainer {
+    bottom: 2px;
+    right: 111px;
+    width: 46%;
+    padding: 20px;
+}
+  .headerContact {
+    font-size: 2rem;
+    font-weight: 300;
+    padding-bottom: 0px;
+  }
+  .inputField {
+    padding: 2px;
+    margin-bottom: 20px;
+    font-size: 10px;
+    border-width: 0 0 1px
+  }
+  input,
+  input::-webkit-input-placeholder {
+    font-size: 0.8rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+  .footerContact > p {
+    font-size: 0.7rem;
+    padding-top: 0px;
+  }
+  .inputContainer > button {
+    padding: 3% 7%;
+    font-size: 0.6rem;
+    border-radius: 2px;
+    letter-spacing: 0.2rem;
+  }
+  .footerContent {
+    font-size: 0.9rem;
+    font-weight: 300;
+    padding: 23px;
+  }
+  .socials img {
+    width: 8%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .brandAgency {
+    padding-top: 50px;
+    padding-bottom: 150px;
+  }
+  
+  .circleMain {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #f09319;
+  }
+  .brandCon_right {
+    padding: 40px 0px 30px 30px;
+    width: 55%;
+    top: 450px;
+    left: 75px;
+  }
+  .brandCon_left {
+    transform: translate(4px, -141px);
+    width: 75%;
+  }
+  .brandPic_two {
+    width: 55%;
+    transform: translate(120px, -66px);
+  }
+  .talkContainer {
+    bottom: 2px;
+    right: 104px;
+    width: 45%;
+    padding: 10px;
+    padding-right: 5px;
+  }
+  .headerContact {
+    font-size: 1.8rem;
+  }
+  .socials {
+    padding: 7px;
+  }
+  .footerContent {
+    font-size: 0.7rem;
+    font-weight: 300;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .floating_main {
+    transform: translate(0px, -42px);
+  }
+  .create {
+    padding-top: 1px;
+    font-size: 3.4rem;
+    line-height: 1rem;
+  }
+  .brandCon_right {
+    padding: 40px 0px 30px 30px;
+    width: 71%;
+    top: 390px;
+    left: 26px;
+  }
+  .basePara_left {
+    padding-left: 40px;
+  }
+  .basePara_right {
+    padding-left: 40px;
+    padding-bottom: 80px;
+  }
+  .Para_left {
+    padding-left: 40px;
+  }
+  .Para_right {
+    padding-left: 40px;
+  }
+  .zoom-effect-container {
+    width: 100%;
+    height: auto;
+  }
+  .dimension {
+    width: 95%;
+    height: auto;
+  }
+  .talkPic {
+    width: 56%;
+    top: 15px;
+    left: 65px;
+  }
+  .talkContainer {
+    bottom: 2px;
+    right: 93px;
+    width: 45%;
+    padding: 1px;
+    padding-left: 10px;
+  }
+  .headerContact {
+    font-size: 1.2rem;
+    padding-bottom: 0px;
+  }
+}

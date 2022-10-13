@@ -1,0 +1,1578 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Oswald", sans-serif;
+  /* background-color: #e5e5e5; */
+}
+
+/* Navigation css */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navlogo > img {
+  width: 15%;
+}
+.menuIcon{
+  font-size: 25px;
+}
+.menuBar > .menuIcon {
+  padding: 0px 50px;
+}
+
+.menuIcon:hover {
+  color: #f09319;
+  cursor: pointer;
+}
+
+.sidecontent {
+  height: 100vh;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  background-color: #000;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 10px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+.closeBtn {
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  margin: 0px 20px;
+}
+.sidecontent > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin: 20px 0px;
+  text-decoration: none;
+}
+
+/* Main container firstpage */
+.mainOrange_con {
+  background: #f09319;
+  width: 100%;
+  height: 60vh;
+}
+
+.mainWhite_con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.floating_main {
+  background-color: white;
+  height: 90vh;
+  width: 85%;
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.mainPoster {
+  display: flex;
+  justify-content: flex-end;
+}
+.mainPoster > img {
+  width: 92%;
+  height: 90vh;
+  transform: translate(15px, -50px);
+}
+.containerPoster {
+  padding: 50px;
+  line-height: 1;
+  text-align: center;
+}
+.create {
+  padding-top: 60px;
+  font-size: 6rem;
+  font-weight: lighter;
+  line-height: 1;
+  text-align: center;
+}
+.brand {
+  font-size: 5rem;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.posterTags {
+  letter-spacing: 3px;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #969090;
+  margin-bottom: 50px;
+}
+.posterBtn {
+  padding: 4% 9%;
+  width: fit-content;
+  color: #ffffff;
+  background: #000;
+  font-weight: lighter;
+  font-size: 1rem;
+  border-radius: 3px;
+  font-size: 1rem;
+  border: none;
+  letter-spacing: 3px;
+}
+.posterBtn:hover {
+  background: #f09319;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.mainBlack_con1 {
+  background: #000;
+  width: 100%;
+  height: 65vh;
+  padding-top: 40px;
+}
+.mainBlack_con2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #000;
+  width: 100%;
+  color: #fff;
+}
+.basePara_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 20px 50px 80px 0px;
+  font-size: 6rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  margin-bottom: 20px;
+  line-height: 6rem;
+}
+.blackCirclePara{
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background: #f09319;
+}
+.innovative{
+  padding-top: 30px;
+}
+
+.basePara_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 12px;
+}
+
+.basePara_right > p {
+  font-size: 20px;
+  width: 400px;
+  padding-bottom: 5%;
+  line-height: 2.5rem;
+  letter-spacing: 1px;
+}
+.basePara_right > button {
+  padding: 2.8% 7%;
+  width: fit-content;
+  color: #ffffff;
+  background: #f09319;
+  font-weight: 300;
+  font-size: 0.9rem;
+  border-radius: 2px;
+  border: none;
+  letter-spacing: 0.2em;
+}
+.basePara_right > button:hover {
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+/* Article 1st */
+.brandAgency {
+  background-color: #e5e5e5;
+  position: relative;
+  width: 100%;
+  height: 900px;
+  padding-top: 80px;
+}
+.circleMain {
+  width: 28%;
+  height: 40%;
+  border-radius: 50%;
+  background: #f09319;
+  position: absolute;
+  left: 400px;
+} 
+
+.brandPic_one {
+  width: 40%;
+  height:49%;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  background-size: cover;
+}
+  
+.brandPic_two {
+  width: 29%;
+  height: 39%;
+  left: 400px;
+  bottom: 70px;
+  z-index: 99;
+  position: absolute;
+  box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 40%);
+}
+.brandCon_right{
+  padding: 30px 0px 0px 30px;
+  top: 260px;
+  right: 100px;
+  width: 37%;
+  height: 70vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  position: absolute;
+  z-index: 200;
+  overflow: hidden;
+}
+
+.brandHeader{
+  font-size: 4rem;
+  font-weight: 300;
+  line-height: 4.5rem;
+}
+.paddingDesign{
+  padding-bottom: 20px;
+}
+.brandTick{
+  color: #f09319;
+}
+
+.brandList {
+  padding-top: 10px;
+  font-size: 19px;
+  line-height: 2.5rem;
+  letter-spacing: 1px;
+  list-style: none;
+  font-weight: 300;
+}
+
+.brandBtn {
+  padding: 4% 9%;
+  width: fit-content;
+  color: #ffffff;
+  background: #000;
+  font-weight: lighter;
+  font-size: 0.9rem;
+  border-radius: 2px;
+  border: none;
+  letter-spacing: 0.2em;
+  font-weight: 300;
+}
+.brandBtn:hover {
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+
+/* article 2 container Why us */
+.articleTwo_Con {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.usWrapper {
+  background-color: #000;
+  width: 100%;
+  height: 100vh;
+  padding: 12px;
+  padding-left: 70px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.usWrapperImg {
+  background: url(./images/thirdpage/usimage.jpg);
+  background-size: cover;
+  width: 100%;
+  background-position-x: -85px;
+}
+.aligner {
+  margin: 50px 50px;
+}
+.usHeader {
+  color: #f09319;
+  font-weight: lighter;
+  font-size: 5.5rem;
+  padding-bottom: 20px;
+}
+.line-1 {
+  background-color: #f09319;
+  height: 6px;
+  width: 20%;
+}
+
+.aboutUs {
+  padding-top: 10px;
+  font-size: 20px;
+  line-height: 2.5rem;
+  letter-spacing: 0.1em;
+  list-style: none;
+}
+.linkNav {
+  padding-bottom: 25px;
+}
+
+.usBtn {
+  padding: 3.3% 7.4%;
+  width: fit-content;
+  color: #ffffff;
+  background: #f09319;
+  font-weight: lighter;
+  font-size: 0.9rem;
+  border-radius: 2px;
+  border: none;
+  letter-spacing: 0.2em;
+}
+.usBtn:hover {
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+/* project title  */
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e5e5;
+  padding: 30px;
+}
+.projects > h1 {
+  font-weight: 300;
+  font-size: 5rem;
+  padding-bottom: 20px;
+}
+.projects > p {
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 1.4rem;
+}
+.benjamin {
+  margin-bottom: 20px;
+}
+.blackLine {
+  height: 0.5px;
+  width: 70%;
+  background-color: #000;
+}
+
+/* project images */
+
+ 
+.wrapper {
+  background-color: #e5e5e5;
+  padding: 20px 100px;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(3,1fr);
+}
+.zoom-effect-container {
+   width: 100%;
+    height: 360px;
+    overflow: hidden;
+}
+.image-card img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+   width: 100%;
+}
+
+.zoom-effect-container:hover .image-card img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.imgBtn_con {
+  text-align: center;
+}
+.imgBtn {
+  padding: 2% 3%;
+  color: #000;
+  background: #e5e5e5;
+  font-weight: lighter;
+  font-size: 1.3rem;
+  letter-spacing: 0.1em;
+  border-color: #000 solid 0.2px;
+  border-width: thin;
+  margin-bottom: 20px;
+}
+.imgBtn:hover {
+  background: #000;
+  color: #fff;
+  transition: all 0.3s;
+}
+.strategy {
+  background-image: url(./images/strategy.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 750px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.contentWrapper{
+  padding: 40px 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  width: 45%;
+  text-align: end;
+
+}
+.dimension{
+  width: 90%;
+  height: 40vh ;
+  background-color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.contentWrapper p{
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+/* Bottom black box */
+.sectionBlack_con {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #000;
+  width: 100%;
+  color: #fff;
+  padding-top: 100px;
+}
+.Para_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px 0px 80px 50px;
+  font-size: 6rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  line-height: 6rem;
+}
+.paraCircle{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #f09319;
+}
+.unique{
+  padding-top: 40px;
+}
+.Para_left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 12px;
+}
+.Para_left > p {
+  font-size: 20px;
+  width: 400px;
+  padding-bottom: 5%;
+  line-height: 2.5rem;
+  letter-spacing: 1px;
+  text-align: end;
+}
+
+.Para_left > button {
+  padding: 3% 7%;
+  width: fit-content;
+  color: #ffffff;
+  background: #f09319;
+  font-weight: lighter;
+  font-size: 1rem;
+  border-radius: 2px;
+  border: none;
+  letter-spacing: 0.2em;
+}
+.Para_left > button:hover {
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+/* Contact Us last section  */
+.lastSection{
+  position: relative;
+}
+.talkPic{
+  position: absolute;
+  height: 75%;
+  width: 63%;
+  top: 80px;
+  left: 100px;
+}
+.dummyGrey1 {
+  background: #e5e5e5;
+  width: 100%;
+  height: 50vh;
+}
+.dummyOrange {
+  background: #f09319;
+  width: 100%;
+  height: 50vh;
+}
+.dummyGrey2 {
+  background: #e5e5e5;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: end;
+}
+
+.talkContainer{
+  bottom: 2px;
+  right: 140px;
+  width: 40%;
+  height: 70vh;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  flex-wrap: wrap;
+  position: absolute;
+  z-index: 20px;
+  overflow: hidden;
+  padding: 40px 0px 0px 50px;
+}
+.headerContact{
+  font-size: 4rem;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+form{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  width: 85%;
+}
+.inputContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+ .inputField{
+  text-decoration: none;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-width: 0 0 2px;
+  border-color: black;
+ }
+ .inputField{
+  text-decoration: none;
+  padding: 12px;
+  margin-bottom: 25px;
+  border-width: 0 0 2px;
+  border-color: black;
+ }
+ input,
+ input::-webkit-input-placeholder {
+     font-size: 1.2rem;
+     font-weight: 300;
+     letter-spacing: 2px;
+ }
+ .inputContainer > button {
+  padding: 3% 7%;
+  color: #ffffff;
+  background: #000;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 2px;
+  border: none;
+  letter-spacing: 0.2em;
+  
+}
+.inputContainer > button:hover {
+  background:#333333;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.footerContact > p{
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 1.2rem;
+  padding-top: 20px;
+}
+.footerContact > p> a{
+  color: #000;
+
+}
+
+
+ /* Footer content */
+footer {
+  text-align: center;
+  background-color: #333333;
+}
+.socials {
+  padding: 40px;
+}
+.socials > a {
+  text-decoration: none;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  color: #fff;
+}
+.footerContent {
+  padding: 40px;
+  color: #e5e5e5;
+  font-size: 1rem;
+}
+
+
+
+
+
+
+
+/* #1440 */
+@media screen and (min-width: 1400px){
+  .floating_main {   
+    height: 90vh;
+    width: 90%;   
+}
+.mainPoster > img {
+  width: 92%;
+  height: 90vh;
+}
+.create {
+  font-size: 8rem; 
+}
+.brand{
+  margin-bottom: 80px;
+}
+.posterTags {
+  letter-spacing: 3px;
+  font-size: 1.7rem;
+  margin-bottom: 60px;
+}
+.posterBtn{
+  font-size: 1.8rem;
+}
+.basePara_right > p {
+  font-size: 25px;
+  width: 440px;
+  padding-bottom: 5%;
+  line-height: 2.7rem; 
+}
+.basePara_right > button{
+  font-size: 1.3rem;
+}
+.basePara_left{
+  line-height: 7rem;
+  font-size: 7rem;
+}
+.brandPic_one {
+  width: 41%;
+  height: 52%;
+}
+.brandCon_right 
+{
+  top: 240px;
+  right: 140px;
+  width: 37%;
+  height: auto;
+  padding-bottom: 40px;
+}
+.brandlist{
+  font-size: 23px;
+}
+.brandBtn {
+  font-size: 1.2rem;
+}
+.usHeader {
+font-size: 6rem; 
+}
+.line-1 {
+  height: 8px;
+  width: 21%;
+}
+.aboutUs {
+    padding-top: 45px;
+    font-size: 25px;
+    line-height: 3rem;
+    letter-spacing: 0.1em;   
+}
+.usBtn{
+  font-size: 1.4rem;
+}
+.projects > h1 {
+  font-size: 7rem;
+  padding-bottom: 30px;
+}
+.projects > p {
+  font-weight: 300;
+  letter-spacing: 3px;
+  font-size: 2rem;
+}
+.blackLine {
+  height: 1px;
+  width: 72%;
+}
+.zoom-effect-container {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+.imgBtn {
+  font-size: 1.5rem;
+  letter-spacing: 0.1em;
+  margin-bottom: 30px;
+}
+.strategy {
+  width: 100%;
+  height: 870px; 
+}
+.strategyImG {
+  padding: 30px 15px 5px 5px;
+  width: 100px;
+}
+.contentWrapper h4 {
+  font-size: 1.5rem;
+  padding-bottom: 15px;
+}
+.contentWrapper p {
+  font-size: 1.2rem;
+}
+.dimension {
+  width: 93%;
+  height: 42vh;
+  margin-bottom: 20px; 
+}
+.Para_left > p{
+  font-size: 25px;
+  width: 440px;
+  padding-bottom: 5%;
+  line-height: 2.7rem; 
+}
+.Para_left > button {
+  font-size: 1.2rem;
+}
+.Para_right {
+  line-height: 7rem;
+  font-size: 7rem;
+}
+.talkPic {
+  height: 77%;
+  width: 70%;
+}
+.headerContact {
+  font-size: 5rem;
+}
+input, input::-webkit-input-placeholder {
+  font-size: 2rem;
+}
+.inputContainer > button {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.footerContact > p {
+  font-size: 1.7rem;
+  padding-top: 45px;
+}
+.socials  img {
+  width: 3.5%;
+}
+.footerContent{
+  font-size: 1.1rem;
+}
+
+
+}
+
+/* #1200 */
+@media screen and (max-width:1200px){
+  .floating_main {
+    height: 88vh;
+    width: 90%;  
+}
+.mainPoster > img {
+  width: 94%;
+  height: 87vh;
+}
+.brandPic_one {
+  width: 39%;
+  height: 47%;
+}
+.brandPic_two {
+  width: 30%;
+  height: 39%;
+  left: 356px;
+  bottom: 87px;
+}
+.circleMain {
+  width: 32%;
+  height: 40%;
+  left: 342px;
+}
+.brandCon_right {
+  right: 75px;
+  width: 37%;
+  height: auto;
+  padding-bottom: 30px;
+}
+
+.zoom-effect-container {
+  width: 100%;
+  height: 310px
+}
+.dimension {
+  width: 94%;
+  height: 40vh;
+}
+.talkPic {
+  height: 74%;
+  width: 68%;
+  top: 97px;
+  left: 100px;
+}
+.talkContainer {
+  width: 43%
+}
+}
+
+/* #1040 */
+@media screen and (max-width:1070px){
+  .mainOrange_con {
+    height: 55vh;
+}
+.floating_main {
+  height: 80vh;
+  width: 90%;
+}
+.mainPoster > img {
+  width: 100%;
+  height: 80vh;
+  transform: translate(40px, -50px);
+}
+.create {
+  padding-top: 10px;
+  font-size: 5rem; 
+}
+.brand {
+  font-size: 5rem; 
+}
+
+.posterBtn {
+  font-size: 1rem;
+  padding: 4% 7%;
+}
+.posterTags {
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+}
+.mainBlack_con1 {
+  height: 55vh;
+}
+.basePara_left {
+  font-size: 4rem;
+  margin-bottom: -30px;  
+}
+.blackCirclePara {
+  width: 100px;
+  height: 100px;
+}
+.basePara_right > p {
+  font-size: 18px;
+  padding-bottom: 5%;
+  line-height: 2.6rem;
+}
+.basePara_right > button {
+  padding: 2.8% 5%;
+  font-size: 0.9rem;
+}
+.brandAgency {
+  width: 100%;
+  height: 700px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+.circleMain {
+  width: 31%;
+  height: 40%;
+  left: 305px;
+}
+
+.brandPic_one {
+  width: 43%;
+  height: 55%;
+  top: 160px;
+  left: 75px;
+}
+.brandPic_two {
+  width: 30%;
+  height: 35%;
+  left: 306px;
+  bottom: 50px;
+}
+.brandHeader {
+  font-size: 4rem;
+  line-height: 4rem;
+}
+.brandList {
+  font-size: 20px;
+  line-height: 2.3rem;
+}
+.brandCon_right {
+  top: 220px;
+  right: 80px;
+  width: 35%;
+  height: auto;
+  padding-bottom: 30px;
+}
+.brandHeader {
+  font-size: 3.5rem;
+  line-height: 4rem;
+}
+.brandList {
+  font-size: 18px;
+  line-height: 2rem;
+}
+.linkNav {
+  padding-bottom: 10px;
+}
+.brandBtn {
+  padding: 3.5% 6%;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+}
+.usWrapper {
+  height: 85vh;
+  padding: 10px;
+  padding-left: 40px;
+}
+.usHeader {
+  font-size: 5rem;
+  padding-bottom: 5px;
+}
+.line-1 {
+  background-color: #f09319;
+  height: 5px;
+  width: 24%;
+}
+.aboutUs {
+  padding-top: 20px;
+  font-size: 18px;
+  line-height: 2.3rem;
+}
+.aligner {
+  margin: 40px 40px;
+}
+.usBtn {
+  font-size: 1rem;
+}
+.projects {
+  padding: 10px;
+}
+.wrapper {
+  padding: 10px 75px;
+  display: grid;
+  grid-gap: 10px;
+}
+.zoom-effect-container {
+  width: 100%;
+  height: 275px;
+}
+.strategy {
+  height: 740px;
+}
+.contentWrapper {
+  width: 50%;
+  text-align: end;
+  grid-gap: 15px;
+}
+.dimension {
+  width: 95%;
+  height: 40vh;
+  margin-bottom: 10px;
+}
+.strategyImG {
+  padding: 12px 6px ;
+  width: 85px;
+}
+.contentWrapper p {
+  font-size: 0.9rem;
+}
+.sectionBlack_con {
+  padding-top: 50px;
+}
+.paraCircle {
+  width: 100px;
+  height: 100px;
+}
+.Para_right {
+  padding: 13px 0px 54px 25px;
+  font-size: 5rem;
+  line-height: 5rem;
+}
+.Para_left > p {
+  font-size: 18px;
+  padding-bottom: 5%;
+  line-height: 2.6rem;
+}
+.Para_left > button {
+  padding: 2.8% 4%;
+  font-size: 1rem;
+}
+.dummyGrey1 {
+  height: 45vh;
+}
+.dummyOrange {
+  background: #f09319;
+  width: 100%;
+  height: 45vh;
+}
+.dummyGrey2 {
+  height: 45vh;
+}
+.talkPic {
+  height: 77%;
+  width: 75%;
+  top: 80px;
+  left: 75px;
+}
+.talkContainer {
+  right: 79px;
+  width: 40%;
+  height: 57vh; 
+}
+.footerContact > p {
+  font-size: 1rem;
+  padding-top: 2px;
+}
+.inputField {
+  padding: 2px;
+  margin-bottom: 29px;
+}
+.socials {
+  padding: 25px;
+}
+.footerContent {
+  font-size: 1rem;
+  font-weight: 300;
+}
+.socials img {
+  width: 4%;
+}
+}
+
+/* #1000 */
+@media screen and (max-width:1000px){
+  .create {
+    padding-top: 40px;
+    font-size: 3.5rem;
+    line-height: 0.5;
+}
+.brand {
+  padding-top: 30px;
+  font-size: 3.5rem;
+}
+.posterTags {
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+}
+.posterBtn {
+  padding: 4% 6%;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+.brandCon_right {
+  top: 205px;
+  right: 50px
+}
+
+.dimension {
+  width: 95%;
+  height: 40vh;
+}
+.brandCon_right {
+  height: 62vh;
+}
+.usWrapper {
+  height: 85vh;
+  padding: 0px 10px 10px 0px;
+}
+.aligner {
+  margin: 40px 40px;
+}
+.usHeader {
+  font-size: 4rem;
+  padding-bottom: 5px;
+}
+.aboutUs {
+  padding-top: 20px;
+  font-size: 17px;
+  line-height: 2rem;
+}
+.contentWrapper {
+  width: 55%;
+  text-align: end;
+  grid-gap: 10px;
+}
+.wrapper {
+  padding: 8px 50px;
+  display: grid;
+  grid-gap: 8px;
+}
+.strategyImG {
+  padding: 4px 6px;
+  width: 85px;
+}
+
+.footerContact > p {
+  font-size: 1rem;
+  padding-top: 2px;
+}
+.inputField {
+  padding: 2px;
+  margin-bottom: 29px;
+}
+}
+
+/* #770 */
+@media screen and (max-width:770px){
+  .mainOrange_con {
+    height: 50vh;
+}
+
+.floating_main {
+  height: 70vh;
+  width: 91%;
+}
+.mainBlack_con1 {
+  height: 44vh;
+}
+.mainPoster > img {
+  width: 100%;
+  height: 70vh;
+  transform: translate(28px, -50px);
+}
+.create {
+  padding-top: 36px;
+  font-size: 3rem;
+  line-height: 1rem;
+}
+.brand{
+  padding-bottom: 20px;
+  font-size: 3rem;
+}
+.posterTags {
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+}
+.posterBtn {
+  padding: 4% 6%;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+.basePara_left {
+  padding: 20px 5px 50px 0px;
+  font-size: 4rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1px;
+  line-height: 4.9rem;
+}
+.basePara_right {
+  padding: 10px;
+}
+.basePara_right > p {
+  font-size: 15px;
+  width: 300px;
+  padding-bottom: 5%;
+  line-height: 2.5rem;
+  letter-spacing: 0.7px;
+}
+.basePara_right > button {
+  padding: 2.8% 5%;
+  font-size: 0.8rem;
+}
+.circleMain {
+  width: 50%;
+  height: 40%;
+  left: 195px;
+}
+.brandPic_one {
+  width: 53%;
+  height: 35%;
+  top: 210px;
+  left: 50px;
+}
+.brandCon_right {
+  top: 590px;
+  right: 310px;
+  height: auto;
+  width: 50%;
+  padding: 8px 0px 30px 25px;
+}
+.brandList {
+  font-size: 15px;
+  line-height: 1.5rem;
+}
+.brandAgency {
+  width: 100%;
+  height: 700px;
+  padding-top: 85px;
+  padding-bottom: 180px;
+}
+
+.brandPic_two {
+    width: 43%;
+    height: 35%;
+    left: 386px;
+    bottom: 289px;
+}
+.brandHeader {
+  font-size: 2.8rem;
+  line-height: 2.8rem;
+}
+.usWrapper {
+  height: 60vh;
+  padding: 0px 0px 15px 0px;
+  border: 1px solid black;
+}
+.usBtn {
+  font-size: 0.78rem;
+}
+.usHeader {
+  font-size: 3rem;
+  padding-bottom: 5px;
+}
+.aboutUs {
+  padding-top: 20px;
+  font-size: 14px;
+  line-height: 1.9rem;
+}
+.projects > h1 {
+  font-weight: 300;
+  font-size: 4rem;
+  padding-bottom: 20px;
+}
+.wrapper {
+  grid-gap: 10px;
+  grid-template-columns: repeat(2,1fr);
+}
+.contentWrapper {
+  width: 67%;
+  text-align: end;
+  grid-gap: 5px;
+}
+.Para_left > p {
+  font-size: 15px;
+  width: 300px;
+  padding-bottom: 5%;
+  line-height: 2.5rem;
+  letter-spacing: 0.7px;
+}
+.Para_left > button {
+  padding: 2.8% 4%;
+  font-size: 0.8rem;
+}
+.paraCircle {
+  width: 80px;
+  height: 85px;
+
+}
+.Para_right {
+  padding: 10px 0px 70px 7px;
+  font-size: 4rem;
+  line-height: 4rem;
+}
+.dummyGrey1 {
+  height: 30vh;
+}
+.dummyOrange {
+  background: #f09319;
+  width: 100%;
+  height: 30vh;
+}
+.dummyGrey2 {
+  height: 30vh;
+}
+.talkPic {
+  height: 77%;
+  width: 90%;
+  top: 50px;
+  left: 40px;
+}
+.talkPic {
+    height: auto;
+    width: 75%;
+    top: 39px;
+    left: 88px;
+}
+.talkContainer {
+  right: 55px;
+  width: 50%;
+  height: auto;
+  padding: 45px 0px 49px 10px;
+}
+.headerContact {
+  font-size: 2.5rem;
+  font-weight: 300;
+  padding-bottom: 2px;
+}
+input,
+ input::-webkit-input-placeholder {
+     font-size: 0.8rem;
+     letter-spacing: 1px;
+
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  width: 80%;
+}
+.inputContainer > button {
+  padding: 1% 3%;
+  font-size: 18px;
+  border-radius: 2px;
+  letter-spacing: 0.1em;
+}
+
+}
+
+/* #770 */
+@media screen and (max-width:500px){
+  .mainOrange_con {
+    height: 60vh;
+}
+  .floating_main {
+    background-color: white;
+    height: 150vh;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr;
+    top: 120px;
+    position: absolute;
+    width: 370px;
+    right: 29px;
+}
+.create {
+  padding-top: 1px;
+  font-size: 3rem;
+  line-height: 0rem;
+}
+.posterTags {
+  letter-spacing: 1px;
+  font-size: 1.4rem;
+}
+.posterBtn {
+  padding: 4% 6%;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+.mainPoster > img {
+  width: 90%;
+  transform: translate(-17px, -50px);
+}
+.mainBlack_con1{
+  height: 120vh;
+}
+.mainBlack_con2 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.brandPic_two {
+  width: 43%;
+  height: 18%;
+  left: 208px;
+  bottom: 286px;
+}
+.basePara_left {
+  padding-left: 70px;
+  align-items: flex-start;
+}
+.basePara_right > p {
+  font-size: 14px;
+  width: 250px;
+  padding-bottom: 5%;
+  line-height: 2.1rem;
+  letter-spacing: 0.6px;
+
+}
+.basePara_right > button {
+  padding: 3% 4%;
+  font-size: 0.6rem;
+}
+.basePara_right {
+  padding-left: 70px;
+  padding-bottom: 70px;
+}
+.circleMain {
+  width: 70%;
+  height: 32%;
+  left: 53px;
+}
+.brandPic_one {
+  width: 57%;
+  height: 29%;
+  top: 200px;
+  left: 50px;
+}
+.brandPic_two {
+  width: 46%;
+  height: 21%;
+  left: 152px;
+  bottom: 355px;
+}
+.brandCon_right {
+  top: 640px;
+  right: 87px;
+  height: 52vh;
+  width: 60%;
+  padding: 2px 0px 0px 19px;
+}
+.brandHeader {
+  font-size: 2.1rem;
+  line-height: 2.4rem;
+}
+.brandList {
+  padding-top: 1px;
+  font-size: 13px;
+  line-height: 1.5rem;
+}
+.linkNav {
+  padding-bottom: 10px;
+}
+.articleTwo_Con {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.usWrapperImg {
+  background: url(./images/thirdpage/usimage.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+.usHeader {
+  font-size: 2.7rem;
+  padding-bottom: 5px;
+}
+.aboutUs {
+  padding-top: 18px;
+  font-size: 13px;
+  line-height: 1.3rem;
+}
+.wrapper {
+  grid-gap: 10px;
+  grid-template-columns: repeat(1,1fr);
+}
+.contentWrapper {
+  padding: 30px auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  width: 80%;
+  text-align: center;
+}
+.strategy {
+  height: auto;
+}
+.projects > p {
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+.blackLine {
+  height: 0.5px;
+  width: 80%;
+  background-color: #000;
+}
+.sectionBlack_con {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 30px;
+}
+.Para_left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 70px;
+  padding-bottom: 30px;
+  width: 250px;
+}
+.Para_left p{
+  text-align: left;
+  width: 250px;
+}
+.Para_left > button {
+  padding: 4.8% 8%;
+  font-size: 0.7rem;
+}
+.Para_right {
+  padding-left: 70px;
+}
+.talkPic {
+  height: auto;
+  width: 71%;
+  top: 30px;
+  left: 55px;
+}
+.talkContainer {
+  right: 85px;
+  width: 61%;
+  height: auto;
+  padding: 25px 0px 25px 10px;
+}
+.footerContent {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+.socials img {
+  width: 8%;
+}
+
+}
+@media screen and (max-width:380px){
+  .talkContainer{
+    right:65px
+  }
+  .floating_main {
+    height: 150vh;
+    grid-template-columns: 1fr;
+    top: 120px;
+    position: absolute;
+    width: 338px;
+    right: 22px;
+}
+} 
